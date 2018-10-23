@@ -1,0 +1,301 @@
+@charset "UTF-8";
+
+html::-webkit-scrollbar {
+  display: none;
+}
+/*Elementos*/
+body {
+  font-family: 'Open Sans', sans-serif !important;
+  min-width: 350px;
+}
+h1, h2, h3, h4, h5, h6, div, p {
+  font-family: 'Open Sans', sans-serif !important;
+}
+header {
+  background-color: #fff;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 90px;
+}
+a {
+  text-decoration: none;
+}
+#menu a {
+  padding: 8px 16px;
+  font-size: large;
+}
+#menu a:hover {
+  background-color: #fff;
+  color: #213F99;
+}
+footer a {
+  color: #999999;
+  text-decoration: none;
+}
+section {
+  height: 600px;
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
+main {
+  margin-top: 60px;
+}
+input {
+  margin: 10px 0px !important;
+}
+
+/*Clases*/
+.subtitle {
+  line-height: 35px;
+}
+.round {
+  border-radius: 25px;
+}
+.row {
+  width: 100%;
+  display: table;
+}
+.center {
+  text-align: center;
+}
+.padding {
+  padding: 12px;
+}
+.padding16 {
+  padding: 16px;
+}
+.padding-large {
+  padding: 36px;
+}
+.margintop {
+  margin-top: 60px;
+}
+.black {
+  background-color: #000;
+}
+.half {
+  width: 50%;
+}
+.third {
+  width: 33%;
+}
+.twothird {
+  width: 67%;
+}
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+.clear {
+  background-color: #f2f2f2;
+}
+.white-text {
+  color: #fff;
+}
+.block {
+  display: block;
+}
+.content {
+  max-width: 980px;
+  margin: auto;
+  display: block;
+  position: relative;
+}
+.contentw {
+    max-width: 1200px;
+    margin: auto;
+    display: block;
+    position: relative;
+}
+.text-shadow {
+    text-shadow: 2px 2px 6px #000;
+}
+.cta {
+  font-size: 16px;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+  height: 60px;
+  box-shadow: 0 1px 6px rgba(0, 0, 0.16);
+}
+.blue {
+  background-color: #213F99 !important;
+  color: #fff !important;
+}
+.blue-text {
+  color: #213F99;
+}
+.divider{
+  height: 80px;
+}
+.person{
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+}
+.person:hover {
+  transform: scale(1.20);
+}
+.objetivo{
+  max-width: 250px !important;
+  overflow: hidden;
+  border-radius: 50%;
+}
+.objetivo:hover {
+  transform: scale(1.10);
+}
+.subcategoria {
+  margin-left: 10px;
+  display: none;
+}
+.parallax{
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*IDs*/
+#main {
+  padding: 16px;
+}
+#logo {
+  width: 60px;
+}
+#menu {
+  position: absolute;
+  top: 90px;
+  width: 100%;
+  padding: 8px 12px;
+}
+#header {
+  margin-left: 25px;
+}
+#mainbtn {
+  width: 35%;
+}
+#banner {
+  height: 800px !important;
+  background-image: url('../images/fogata.jpg');
+}
+#title {
+  z-index: 10;
+  max-width: 50%;
+  white-space: normal;
+  font-size: 52px;
+  line-height: 60px;
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+  letter-spacing: -1px;
+  visibility: inherit;
+  transition: none 0s ease 0s;
+  text-align: inherit;
+  border-width: 0px;
+  margin-top: 25%;
+  padding: 0px;
+  min-height: 58px;
+  opacity: 1;
+  transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+  transform-origin: 50% 50% 0p
+}
+#subtitle {
+  max-width: 50%;
+}
+#nom-paciente{
+  display: none;
+}
+#registro{
+  height: 100%;
+  background-image: url("../images/campoamigo.jpg");
+}
+#ubicacion {
+  opacity: 0.9;
+  height: 450px;
+}
+#teotepec {
+  background-image: url('../images/caminata.jpeg');
+}
+
+/*
+  responsive queries
+*/
+
+@media only screen and (max-width: 650px) {
+  #logo {
+    padding: 8px;
+  }
+  #header {
+    margin-left: 10px;
+    font-size: x-large;
+  }
+  #title {
+    max-width: 80%;
+  }
+  #mainbtn {
+    width: 80%;
+  }
+  #subtitle {
+    max-width: 70%;
+  }
+  #banner {
+    height: 600px !important;
+  }
+}
+
+@media only screen and (max-width: 600px){
+  #ubicacion {
+    height: auto;
+  }
+}
+
+/*mobile*/
+@media only screen and (max-width: 550px) {
+  footer p {
+    font-size: 12px;
+  }
+  header .third{
+    width: 33%;
+  }
+  header .twothird {
+    width: 67%;
+  }
+  header .right{
+    float: right;
+  }
+  header .half{
+    width: 50%;
+  }
+  .third{
+    width: 100%;
+  }
+  .twothird{
+    width: 100%;
+  }
+  .right{
+    float: left;
+  }
+  .half{
+    width: 100%;
+  }
+  #banner {
+    height: 300px;
+  }
+  #title{
+    font-size: 36px;
+    width: 80%;
+  }
+}
+/*tablet*/
+@media only screen and(max-width: 750px) {
+
+}
+/*small pc*/
+@media only screen and (max-wdith: 1200px) {
+
+}

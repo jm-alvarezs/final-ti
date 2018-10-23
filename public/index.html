@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<head>
+  <title>CAMPO AMIGO</title>
+  <meta charset='utf-8'>
+  <meta name='description' content='Campamento para niños y adolescentes con Diabetes con el objetivo de aprender a vivir con Diabetes.'>
+  <meta name='keywords' content='diabetes, diabetes en adolescentes, adolescentes con diabetes, diabetes en niños, niños con diabetes, educador en diabetes, que es diabetes'>
+  <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+  <link rel='stylesheet' type='text/css' href='./styles/style.css'>
+  <link rel='stylesheet' type='text/css' href='./styles/w3.css'>
+  <link rel="shortcut icon" type="image/png" href="./images/logo-solo.png">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  <script defer href='https://use.fontawesome.com/releases/v5.0.8/js/fontawesome.js' integrity='sha384-7ox8Q2yzO/uWircfojVuCQOZl+ZZBg2D2J5nkpLqzH1HY0C1dHlTKIbpRz/LG23c' crossorigin='anonymous'></script>
+</head>
+<body>
+  <header id='navbar'>
+    <div id='pad' class='row padding16'>
+      <div class='content'>
+        <a href='#banner'><div class='half left'>
+            <img id='logo' src='./images/logo-solo.png' class='left' alt='Logo Campo Amigo'>
+            <h2 id='header' class='left blue-text w3-hide-small' >
+              <b>CAMPO AMIGO</b>
+            </h2>
+        </div>
+        </a>
+        <div class='half left'>
+          <div class='right'>
+            <div class='twothird left padding'>
+              <button class='cta right w3-btn round blue' onclick='theFunction(registro)'>
+                ¡Regístrate!
+              </button>
+            </div>
+            <div class='third left padding'>
+              <div class='w3-row'>
+                <button class='right w3-btn blue round' onclick='showMenu()'>
+                  <i class='fas fa-bars'></i>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id='menu' class='w3-row blue w3-text-white' style='visibility: hidden'>
+      <div class='w3-content'>
+          <a class='block round' href='./about.html'>Acerca de Nosotros</a>
+          <a class='block round' href='./requisitos.html'>Requisitos</a>
+          <a class='block round' href='./apoyos.html'>Becas y Apoyos</a>
+      </div>
+  </div>
+  </header>
+  <main style='margin-top: 0px'>
+      <section id='banner' class='row padding-large parallax'>
+        <div class='content'>
+          <h1 id='title' class='white-text text-shadow'>¡Aprende a vivir con Diabetes!</h1>
+          <h2 id='subtitle' class='subtitle white-text text-shadow'>Campamento para Niños y Adolescentes con Diabetes</h2>
+          <button id='mainbtn' class='w3-btn round blue w3-card w3-padding w3-large' onclick='theFunction(registro)' >
+            Regístrate
+          </button>
+        </div>
+      </section>
+      <section id='contenido' class='row clear'>
+        <div class='contentw'>
+          <div class='row center'>
+            <h2>
+              <b>Objetivos</b>
+            </h2>
+          </div>
+          <br>
+          <div class='row'>
+            <div class='third left center padding16'>
+              <img class='w3-card w3-image objetivo' src='./images/recreacional.jpg' alt='Chavos en Raly de CAMPO AMIGO'>
+              <h4>Proveer una experiencia recreacional</h4>
+            </div>
+            <div class='third left center padding16'>
+              <img class='w3-card w3-image objetivo' src='./images/autodisciplina.jpg' alt='Supervisores enseñando a inyectar'>
+              <h4>Fomentar la autodisciplina e independencia</h4>
+            </div>
+            <div class='third left center padding16'>
+              <img class='w3-card w3-image objetivo' src='./images/educar.jpg' alt='Padres con hijos en el CAMPO AMIGO'>
+              <h4>Educar a los jóvenes y padres de familia</h4>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id='teotepec' class='row parallax'>
+        <div id='ubicacion' class='w3-content w3-card w3-white w3-padding-large'>
+          <h2 class='w3-center blue-text'><b>Ubicación</b></h2>
+          <div class='w3-row w3-padding-large'>
+            <div class='w3-half w3-padding-large'>
+              <img src='./images/teotepec.png' class='w3-image' alt='Instalaciones de Teotepec'>
+            </div>
+            <div class='w3-half'>
+              <h4 class='blue-text'>
+                <b>Centro de Campamentos y Retiros Teotepec</b>
+              </h4>
+                <h5>Arteaga, Coahuila</h5>
+                <p>Las instalaciones cuentan con:</p>
+                <ul>
+                  <li>Agua y Sanitarios</li>
+                  <li>Regaderas con agua caliente</li>
+                  <li>Luz Eléctrica</li>
+                  <li>Áreas Deportivas</li>
+                </ul>
+                <p>
+                  <b>*No hay cobertura de redes móviles</b>
+                </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id='equipo' class='row blue'>
+        <h2 class='w3-center white-text text-shadow'>
+          <b>Equipo Médico</b>
+        </h2>
+        <br>
+        <div class='w3-content w3-row'>
+          <div class='w3-third w3-center w3-padding-large text-shadow'>
+            <img class='person w3-card' src='./images/caloca.jpg' alt='Dr. Caloca'>
+            <h4>Dr. Oscar Flores Caloca</h4>
+            Endocrinólogo Pediatra
+          </div>
+          <div class='w3-third w3-center w3-padding-large text-shadow'>
+            <img class='person w3-card' src='./images/lavalle.jpg' alt='Dr. Lavalle'>
+            <h4>Dr. Fernando Lavalle</h4>
+            Endocrinólogo
+          </div>
+          <div class='w3-third w3-center w3-padding-large text-shadow'>
+            <img class='person w3-card' src='./images/leonor.jpeg' alt='Dra. Hinojosa'>
+            <h4 class='text-shadow'>Dra. Leonor Hinojosa Amaya</h4>
+            Endocrinóloga Pediatra
+          </div>
+        </div>
+        <div class='divider'></div>
+        <div class='w3-content w3-row'>
+          <div class='w3-third w3-center w3-padding-large text-shadow'>
+            <img class='person w3-card' src='./images/miguel.jpg' alt='Dr. Hinojosa'>
+            <h4>Dr. Miguel Hinojosa Amaya</h4>
+            Endocrinólogo
+          </div>
+          <div class='w3-third w3-center w3-padding-large text-shadow'>
+            <img class='person w3-card' src='./images/arely.JPG' alt='Lic. Arely Gutiérrez'>
+            <h4>Arely Gutiérrez Lara</h4>
+            Lic. en Nutrición
+          </div>
+          <div class='w3-third w3-center w3-padding-large text-shadow'>
+            <img class='person w3-card' src='./images/lety.jpg' alt='Lic. Lety Hernández'>
+            <h4>Leticia Hernández</h4>
+            Lic. en Nutrición
+          </div>
+        </div>
+      </section>
+      <section id='registro' class='parallax'>
+        <div class='row w3-section w3-content w3-padding-large'>
+          <div class='w3-card w3-padding-large w3-white'>
+              <div id="mc_embed_signup">
+                  <form action="https://firebaseapp.us19.list-manage.com/subscribe/post?u=52f16727960c1599e146ffde0&amp;id=3754c2db00" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                      <div id="mc_embed_signup_scroll">
+                        <h2 class='w3-center blue-text'>
+                          <b>¡Recibe la solicitud lo antes posible!</b>
+                        </h2>
+                        <div class="mc-field-group">
+                          <label for="mce-FNAME">Nombre(s) <span class="asterisk">*</span>
+                          </label>
+                          <input type="text" value="" name="FNAME" class="w3-input w3-border rquired" id="mce-FNAME">
+                        </div>
+                        <div class="mc-field-group">
+                          <label for="mce-LNAME">Apellidos </label>
+                          <input type="text" value="" name="LNAME" class="w3-input w3-border" id="mce-LNAME">
+                        </div>
+                        <div class="mc-field-group">
+                          <label for="mce-EMAIL">Correo Electrónico  <span class="asterisk">*</span>
+                        </label>
+                          <input type="email" value="" name="EMAIL" class="required email w3-input w3-border" id="mce-EMAIL">
+                        </div>
+                        <div class="mc-field-group size1of2">
+                          <label for="mce-PHONE">Teléfono  <span class="asterisk">*</span>
+                        </label>
+                            <div class="phonefield phonefield-us w3-row">
+                                (<span class="phonearea"><input class="phonepart required" pattern="[0-9]*" id="mce-PHONE-area" name="PHONE[area]" maxlength="3" size="3" value="" type="text"></span>)
+                                <span class="phonedetail1"><input class="phonepart required" pattern="[0-9]*" id="mce-PHONE-detail1" name="PHONE[detail1]" maxlength="3" size="3" value="" type="text"></span> - 
+                                <span class="phonedetail2"><input class="phonepart required" pattern="[0-9]*" id="mce-PHONE-detail2" name="PHONE[detail2]" maxlength="4" size="4" value="" type="text"></span>
+                            <span class="small-meta nowrap">(###) ###-####</span>
+                            </div>
+                        </div><div class="mc-field-group">
+                          <label for="mce-NOMPACIENT">Nombre del Paciente </label>
+                          <input type="text" value="" name="NOMPACIENT" class="w3-input w3-border" id="mce-NOMPACIENT">
+                        </div>
+                          <div id="mce-responses" class="clear">
+                            <div class="response" id="mce-error-response" style="display:none"></div>
+                            <div class="response" id="mce-success-response" style="display:none"></div>
+                          </div>
+                          <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                          <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_52f16727960c1599e146ffde0_3754c2db00" tabindex="-1" value=""></div>
+                          <div class="clear" style='padding-top: 8px;'>
+                            <input type="submit" value="Enviar" name="subscribe" id="mc-embedded-subscribe" class="button w3-btn blue w3-block w3-padding-large">
+                          </div>
+                    </div>
+                  </form>
+              </div>
+          </div>
+      </section>
+  </main>
+  <footer class='w3-black'>
+    <div class='row padding-large'>
+      <div class='content'>
+        <div id='footer-menu' class='half left padding'>
+          <div class='half left'>
+            <h5>Información Adicional</h5>
+            <a href='info.html#terminos'>Términos y Condiciones</a><br>
+            <a href='info.html#privacidad'>Política de Privacidad</a><br>
+            <a href='info.html#ayuda'>Ayuda</a><br>
+          </div>
+          <div class='half left'>
+            <h5>Menú</h5>
+            <a href='about.html'>Acerca de Nosotros</a><br>
+            <a href='requisitos.html'>Requisitos</a><br>
+            <a href='becas.html'>Becas y Apoyos</a><br>
+            <a href='http://www.amdnl.org'>Acerca de la AMD</a><br>
+          </div>
+        </div>
+        <div class='half left padding'>
+            <div class='right'>
+              <h5>Redes Sociales</h5>
+              <a href='https://www.facebook.com/CampoAmigoAMD'><i class='fab fa-facebook-square fa-2x'></i></a>
+              <a href='https://www.instagram.com/campo_amigo/' class='padding'><i class='fab fa-instagram fa-2x'></i></a>
+              <a href='https://twitter.com/CampoAmigoAMD' class='paddings'><i class='fab fa-twitter fa-2x'></i></a>
+            </div>
+        </div>
+        <div class='row'>
+          <hr>
+        </div>
+        <div class='row center padding'>
+          <p>
+          Copyright &copy 2018, Asociación Mexicana de Diabetes en Nuevo León
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="https://www.gstatic.com/firebasejs/5.5.4/firebase.js"></script>
+  <script src='./scripts/jquery-3.3.1.min.js'></script>
+  <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
+  <script src='./scripts/app.js'></script>
+</body>
