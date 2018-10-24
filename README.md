@@ -1,5 +1,7 @@
 Proyecto Final Tecnologías Internet OT-18
 
+URL: https://campo-amigo.firebaseapp.com/
+
 Requisitos
 1. Página principal "Landing Page" con formulario. Esta página dará inicio al sitio que deberá contener:
 2. Banner (imagen - Gif estático y/o animado) - Encabezado.
@@ -23,3 +25,4 @@ Este proyecto tiene un impacto real y será implementado en el comienzo del año
 
 Características (Features)
 1. Integración con Mailchimp para registro de participantes o padres de familia
+2. Hosting en Firebase
