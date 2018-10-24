@@ -16,7 +16,7 @@ $('#form').css('height', window.innerHeight - 120);
 $('#cat1').hover(function () {
 	$('.subcat1').css('display', 'block')
 }, function () {
-	$('#subcat1').css('display', 'none')
+	$('.subcat1').css('display', 'none')
 })
 
 const theFunction = (div) => {

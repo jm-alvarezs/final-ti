@@ -43,7 +43,12 @@
     </div>
     <div id='menu' class='w3-row blue w3-text-white' style='visibility: hidden'>
       <div class='w3-content'>
-          <a class='block round' href='./about.html'>Acerca de Nosotros</a>
+          <div id='cat1'>
+              <a class='block round' href='./about.html'>Acerca de Nosotros</a>
+              <a class='subcat1 subcat round' href='./about.html#historia'>Historia del Campo</a>
+              <a class='subcat1 subcat round' href='./about.html#mision'>Mision y Vision</a>
+          </div>
+          </a>
           <a class='block round' href='./requisitos.html'>Requisitos</a>
           <a class='block round' href='./apoyos.html'>Becas y Apoyos</a>
       </div>
@@ -240,6 +245,6 @@
   </footer>
   <script src="https://www.gstatic.com/firebasejs/5.5.4/firebase.js"></script>
   <script src='./scripts/jquery-3.3.1.min.js'></script>
-  <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
+  <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js' async></script>
   <script src='./scripts/app.js'></script>
 </body>
