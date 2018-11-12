@@ -33,8 +33,10 @@ footer a {
   color: #999999;
   text-decoration: none;
 }
+footer p {
+  color: #999999;
+}
 section {
-  height: 600px;
   padding-top: 64px;
   padding-bottom: 64px;
 }
@@ -51,6 +53,9 @@ input {
 }
 .round {
   border-radius: 25px;
+}
+.roundsm {
+  border-radius: 5px;
 }
 .row {
   width: 100%;
