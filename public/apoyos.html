@@ -25,7 +25,7 @@
     <div id='pad' class='row padding16'>
       <div class='content'>
         <a href='index.html'><div class='half left'>
-            <img id='logo' src='./images/logo-solo.png' class='left'>
+            <img id='logo' src='./images/logo-solo.png' class='left' alt='Logo Campo Amigo'>
             <h2 id='header' class='left blue-text w3-hide-small' style='margin-left: 25px;'>
               <b>CAMPO AMIGO</b>
             </h2>
@@ -49,31 +49,41 @@
         </div>
       </div>
     </div>
-      <div id='menu' class='w3-row blue w3-text-white' style='visibility: hidden'>
+    <div id='menu' class='w3-row blue w3-text-white' style='visibility: hidden'>
         <div class='w3-content'>
-            <a class='block round' href='./about.html'>Acerca de Nosotros</a>
+            <div id='cat1'>
+                <a class='block round' href='./about.html'>Acerca de Nosotros</a>
+                <a class='subcat1 subcat round' href='./about.html#historia'>Historia del Campo</a>
+                <a class='subcat1 subcat round' href='./about.html#mision'>Mision y Vision</a>
+            </div>
+            </a>
             <a class='block round' href='./requisitos.html'>Requisitos</a>
             <a class='block round' href='./apoyos.html'>Becas y Apoyos</a>
         </div>
     </div>
   </header>
   <main>
-      <section id='about'>
+      <section id='about' class='parallax' style='background-image: url(./images/apoyosfondo.jpg)'>
+        <span role="img" aria-label="Instalaciones de Teotepec"> </span>
         <div class='w3-content'>
             <div class='w3-row-padding'>
+              <div class='w3-card w3-white w3-large roundsm w3-padding-large'>
                 <h2 class='blue-text'>Becas y Apoyos</h2>
-                <p></p>
+                <p>Cada año, distintas instituciones y benefactores nos permiten ofrecer becas para jóvenes en necesidad. Estas becas pueden ser desde un 15% a un 100% del costo del campamento.</p>
+              </div>
             </div>
         </section>
         <section>
-            <div class='w3-content'>
+            <div class='w3-content w3-large'>
             <div class='w3-row-padding'>
                 <h2 class='blue-text'>¿Cómo conseguir una beca para el CAMPO AMIGO?</h2>
-                <p></p>
+                <p>Para esto es necesario asistir personalmente con un padre de familia a la Asociación Mexicana de Diabetes en Nuevo León en un día que nosotros comunicaremos a través de nuestras redes sociales.</p>
+                <p>Síguenos en nuestras redes sociales para conocer estas fechas.</p>
             </div>
             </div>
       </section>
       <section id='registro' class='parallax'>
+          <span role="img" aria-label="Foto Grupal Campo Amigo"> </span>
             <div class='row w3-section w3-content w3-padding-large'>
               <diV class='w3-card w3-padding-large w3-white'>
                   <div id="mc_embed_signup">
@@ -103,7 +113,6 @@
                                     (<span class="phonearea"><input class="phonepart required" pattern="[0-9]*" id="mce-PHONE-area" name="PHONE[area]" maxlength="3" size="3" value="" type="text"></span>)
                                     <span class="phonedetail1"><input class="phonepart required" pattern="[0-9]*" id="mce-PHONE-detail1" name="PHONE[detail1]" maxlength="3" size="3" value="" type="text"></span> - 
                                     <span class="phonedetail2"><input class="phonepart required" pattern="[0-9]*" id="mce-PHONE-detail2" name="PHONE[detail2]" maxlength="4" size="4" value="" type="text"></span>
-                                <span class="small-meta nowrap">(###) ###-####</span>
                                 </div>
                             </div><div class="mc-field-group">
                               <label for="mce-NOMPACIENT">Nombre del Paciente </label>
@@ -131,9 +140,9 @@
           <div id='footer-menu' class='w3-twothird left padding'>
             <div class='half left'>
                 <h5>Menú</h5>
-                <a href='about.html'>Acerca de Nosotros</a><br>
-                <a href='requisitos.html'>Requisitos</a><br>
-                <a href='becas.html'>Becas y Apoyos</a><br>
+                <a href='./about.html'>Acerca de Nosotros</a><br>
+                <a href='./requisitos.html'>Requisitos</a><br>
+                <a href='./apoyos.html'>Becas y Apoyos</a><br>
                 <a href='./info.html#terminos'>Términos y Condiciones</a><br>
                 <a href='./info.html#privacidad'>Política de Privacidad</a><br>
             </div>

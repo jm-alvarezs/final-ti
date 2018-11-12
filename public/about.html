@@ -50,32 +50,52 @@
         </div>
       </div>
     </div>
-      <div id='menu' class='w3-row blue w3-text-white' style='visibility: hidden'>
+    <div id='menu' class='w3-row blue w3-text-white' style='visibility: hidden'>
         <div class='w3-content'>
-            <a class='block round' href='./about.html'>Acerca de Nosotros</a>
+            <div id='cat1'>
+                <a class='block round' href='./about.html'>Acerca de Nosotros</a>
+                <a class='subcat1 subcat round' href='./about.html#historia'>Historia del Campo</a>
+                <a class='subcat1 subcat round' href='./about.html#mision'>Mision y Vision</a>
+            </div>
+            </a>
             <a class='block round' href='./requisitos.html'>Requisitos</a>
             <a class='block round' href='./apoyos.html'>Becas y Apoyos</a>
         </div>
     </div>
   </header>
   <main>
-      <section id='about' class='clear'>
+      <section id='about' class='parallax' style='background: url(./images/20449296_1755685861395929_1053029850444806502_o.jpg)'>
+        <span role="img" aria-label="Fogata Campo Amigo"> </span>
         <div class='w3-content'>
-            <div class='w3-row-padding'>
-                <h2 class='blue-text' style='padding: 0 8px 0 8px'>Acerca de Nosotros</h2>
+          <div class='w3-padding-large w3-row w3-card w3-white roundsm w3-large'>
+              <h2 class='blue-text' style='padding: 0 8px 0 8px'>Acerca de Nosotros</h2>
+              <p>Campo Amigo es una iniciativa dirigida a niños y jóvenes que viven con Diabetes Tipo 1, se realiza desde el año 1982 con el objetivo de educar a niños, niñas, jóvenes y padres de familia con hijos que viven con Diabetes Tipo 1. 
+                  Encabezada por la Asociación Mexicana de Diabetes en Nuevo León, y el Dr. Fernando Lavalle, Coordinador General, el Dr. Oscar Flores Caloca; la Dra. Leonor Hinojosa y la Lic. Nut. Leticia Hernández Arizpe, ED, ha logrado generar un impacto en más de 15 mil beneficiarios desde su creación.
+                  Campo Amigo promueve los 3 pilares del autocuidado entre los asistentes: alimentación saludable, ejercicio físico y adherencia al tratamiento terapéutico. 
+                  Se realiza cada año en el mes de julio, el campamento de adolescentes tiene una duración de 7 días y el campamento de niños 3 días.
+              </p>
+          </div>
+        </div>
+      </section>
+      <section id='mision' class='clear'>
+        <div class='w3-content'>
+            <div class='w3-row-padding w3-large'>
+              <div class='w3-half'>
+                <h3 class='blue-text'>Misión</h3>
+                <p>Contribuir al cuidado de la salud de las personas que padecen Diabetes con escasos recursos, a sus familiares y al público en general, brindando atención, información, orientación y educación, así como facilitar la actualización y capacitación del profesional de la salud.</p>
+                <h3 class='blue-text'>Visión</h3>
+                <p>Ser una institución líder en México en la atención integral del paciente y su familia que se encuentra en riesgo o ya vive con Diabetes.</p>
+              </div>
                 <div class='w3-half'>
-                    <p>Es una iniciativa dirigida a niños y jóvenes que viven con Diabetes Tipo 1, se realiza desde el año 1982 con el objetivo de educar a niños, niñas, jóvenes y padres de familia con hijos que viven con Diabetes Tipo 1. 
-                        Encabezada por la Asociación Mexicana de Diabetes en Nuevo León, y el Dr. Fernando Lavalle, Coordinador General, el Dr. Oscar Flores Caloca; la Dra. Leonor Hinojosa y la Lic. Nut. Leticia Hernández Arizpe, ED, ha logrado generar un impacto en más de 15 mil beneficiarios desde su creación.
-                        Campo Amigo promueve los 3 pilares del autocuidado entre los asistentes: alimentación saludable, ejercicio físico y adherencia al tratamiento terapéutico. 
-                        Se realiza cada año en el mes de julio, el campamento de adolescentes tiene una duración de 7 días y el campamento de niños 3 días.
-                    </p>
+                    <img style='margin-top: 10%' src='https://scontent.fntr4-1.fna.fbcdn.net/v/t31.0-8/20615814_1757202477910934_9071050842903687068_o.jpg?_nc_cat=107&oh=b0ce6ed175836d7fe14d993758712a56&oe=5C1C80BD' class='w3-image roundsm' alt='Muchachos aprendiendo a inyectarse correctamente'>
                 </div>
-                <div class='w3-half'>
-                    <img src='https://scontent.fntr4-1.fna.fbcdn.net/v/t31.0-8/20615814_1757202477910934_9071050842903687068_o.jpg?_nc_cat=107&oh=b0ce6ed175836d7fe14d993758712a56&oe=5C1C80BD' class='w3-image roundsm'>
+                <div class='w3-row-padding'>
+                  <h3 class='blue-text'>Objetivo</h3>
+                  <p>Ayudar a personas que viven con Diabetes y sus familiares a alcanzar una calidad de vida, buscando supervisión médica adecuada, educando clínicamente a los interesados, difusión de los adelantos a nivel mundial que se refieren a nuevos tratamientos y medicinas para controlar la Diabetes.</p>
                 </div>
             </div>
         </section>
-        <section>
+        <section id='historia'>
             <div class='w3-content'>
             <div class='w3-row-padding'>
                 <h2 class='blue-text'>Historia del CAMPO AMIGO</h2>
@@ -84,6 +104,7 @@
             </div>
       </section>
       <section id='registro' class='parallax'>
+          <span role="img" aria-label="Foto Grupal Campo Amigo"> </span>
             <div class='row w3-section w3-content w3-padding-large'>
               <div class='w3-card w3-padding-large w3-white'>
                   <div id="mc_embed_signup">
@@ -113,7 +134,6 @@
                                     (<span class="phonearea"><input class="phonepart required" pattern="[0-9]*" id="mce-PHONE-area" name="PHONE[area]" maxlength="3" size="3" value="" type="text"></span>)
                                     <span class="phonedetail1"><input class="phonepart required" pattern="[0-9]*" id="mce-PHONE-detail1" name="PHONE[detail1]" maxlength="3" size="3" value="" type="text"></span> - 
                                     <span class="phonedetail2"><input class="phonepart required" pattern="[0-9]*" id="mce-PHONE-detail2" name="PHONE[detail2]" maxlength="4" size="4" value="" type="text"></span>
-                                <span class="small-meta nowrap">(###) ###-####</span>
                                 </div>
                             </div><div class="mc-field-group">
                               <label for="mce-NOMPACIENT">Nombre del Paciente </label>
@@ -141,9 +161,9 @@
           <div id='footer-menu' class='w3-twothird left padding'>
             <div class='half left'>
                 <h5>Menú</h5>
-                <a href='about.html'>Acerca de Nosotros</a><br>
-                <a href='requisitos.html'>Requisitos</a><br>
-                <a href='becas.html'>Becas y Apoyos</a><br>
+                <a href='./about.html'>Acerca de Nosotros</a><br>
+                <a href='./requisitos.html'>Requisitos</a><br>
+                <a href='./apoyos.html'>Becas y Apoyos</a><br>
                 <a href='./info.html#terminos'>Términos y Condiciones</a><br>
                 <a href='./info.html#privacidad'>Política de Privacidad</a><br>
             </div>

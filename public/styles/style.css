@@ -160,10 +160,17 @@ input {
   display: none;
 }
 .parallax{
+  padding: 120px 0px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+.v-center {
+  margin: auto;
+  vertical-align: middle;
+  display: table-cell;
+  height: 90%;
 }
 
 /*IDs*/
